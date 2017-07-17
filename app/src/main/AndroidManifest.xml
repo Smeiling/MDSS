@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mdss.smeiling.mdss" >
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+        <activity
+            android:name=".controller.activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.activity.SingleActivity"
+            android:label="@string/title_activity_single" />
+        <activity
+            android:name=".controller.activity.ResultActivity"
+            android:label="@string/title_activity_result" />
+        <activity
+            android:name=".common.base.BaseActivity"
+            android:label="@string/title_activity_base" />
+        <activity
+            android:name=".controller.activity.TestActivity"
+            android:label="@string/title_activity_test" />
+        <activity
+            android:name=".controller.activity.TestAllActivity"
+            android:label="@string/title_activity_test_all" />
+        <activity
+            android:name=".controller.testcase.BtTestingAct"
+            android:exported="false"
+            android:label="@string/title_activity_bt_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.BtTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.WifiTestingAct"
+            android:label="@string/title_activity_wifi_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.WifiTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.BatteryTestingAct"
+            android:label="@string/title_activity_battery_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.BatteryTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.ECompassTestingAct"
+            android:label="@string/title_activity_ecompass_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.ECompassTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.GSensorTestingAct"
+            android:label="@string/title_activity_gsensor_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.GSensorTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.KeypadTestingAct"
+            android:label="@string/title_activity_keypad_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.KeypadTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.TouchTestingAct"
+            android:label="@string/title_activity_touch_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.TouchTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.MultiTouchTestingAct"
+            android:label="@string/title_activity_multi_touch_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.MultiTouchTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.VibratorTestingAct"
+            android:label="@string/title_activity_vibrator_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.VibratorTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.ReceiverTestingAct"
+            android:label="@string/title_activity_receiver_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.ReceiverTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.SpeakerTestingAct"
+            android:label="@string/title_activity_speaker_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.SpeakerTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.BroadMicTestingAct"
+            android:label="@string/title_activity_broad_mic_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.BroadMicTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.MainCamTestingAct"
+            android:label="@string/title_activity_main_cam_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.MainCamTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.FrontCamTestingAct"
+            android:label="@string/title_activity_front_cam_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.FrontCamTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.FlashTestingAct"
+            android:label="@string/title_activity_flash_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.FlashTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.DisplayTestingAct"
+            android:label="@string/title_activity_display_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.DisplayTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.HeadsetTestingAct"
+            android:label="@string/title_activity_headset_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.HeadsetTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.HeadsetMicTestingAct"
+            android:label="@string/title_activity_headset_mic_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.HeadsetMicTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.HeadsetKeyTestingAct"
+            android:label="@string/title_activity_headset_key_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.HeadsetKeyTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.SDcardTestingAct"
+            android:label="@string/title_activity_sdcard_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.SDcardTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.testcase.SIMcardTestingAct"
+            android:label="@string/title_activity_simcard_testing">
+            <intent-filter>
+                <action android:name="controller.testcase.SIMcardTestingAct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".common.receiver.MediaButtonReceiver"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+</manifest>

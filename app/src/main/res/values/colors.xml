@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Indigo_colorPrimary">#CFCFCF</color>
+    <color name="green1">#40E0D0</color>
+    <color name="green">#28A600</color>
+    <color name="white">#FFFFFF</color>
+    <color name="list_bg_black">#292929</color>
+    <color name="black">#000000</color>
+    <color name="black1">#1d1d1d</color>
+    <color name="gray">#555555</color>
+    <color name="gray1">#292929</color>
+    <color name="silver">#CFCFCF</color>
+    <color name="red">#ffff0000</color>
+    <color name="blue">#00BFFF</color>
+    <item name="black" type="drawable">#ff000000</item>
+    <item name="blue" type="drawable">#ff0000ff</item>
+    <item name="darkgray" type="drawable">#808080ff</item>
+    <item name="green" type="drawable">#ff00ff00</item>
+    <item name="ltgray" type="drawable">#ffcccccc</item>
+    <item name="red" type="drawable">#ffff0000</item>
+    <item name="yellow" type="drawable">#ffe7e000</item>
+    <color name="mt1">#7BBA63</color>
+    <color name="mt2">#5ACE9C</color>
+    <color name="mt3">#63B2BD</color>
+    <color name="mt4">#6385BD</color>
+    <color name="mt5">#7365BD</color>
+    <color name="gs_x">#ED6F5A</color>
+    <color name="gs_y">#E5AF48</color>
+    <color name="gs_z">#3F8CC2</color>
+</resources>

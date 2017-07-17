@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_bg_black"
+    tools:context="com.example.songmeiling.myapplication.controller.activity.SingleActivity">
+
+    <ListView
+        android:id="@+id/single_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="3dp"
+        android:divider="@color/gray"
+        android:dividerHeight="0.1dp" />
+
+</RelativeLayout>

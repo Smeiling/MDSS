@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray1"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/common"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:text="@string/Keypad_Test_VolumeUP_Des"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/common"
+        android:layout_marginTop="12dp"
+        android:background="@color/white" />
+
+
+    <ImageView
+        android:id="@+id/pass_up"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/div"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/asus_diagnostic_ic_pass2"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/but_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/div"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/pass_up"
+        android:text="@string/layout_volume_up"
+        android:textColor="#888888"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/pass_down"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/but_up"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/asus_diagnostic_ic_pass2"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/but_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/but_up"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/pass_up"
+        android:text="@string/layout_volume_down"
+        android:textColor="#888888"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/but_down"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/bt_fail"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@color/black1"
+            android:text="@string/Test_FAIL"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="5dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/csin"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/ctop1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="90sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cbottom1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55sp"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="bottom"
+                    android:textSize="90sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cdou"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/ctop2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="90sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cbottom2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55sp"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="bottom"
+                    android:textSize="90sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ctri"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/ctop3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="90sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cbottom3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55sp"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="bottom"
+                    android:textSize="90sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/cpu_percent_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="%" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/bsin"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/btop1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="1"
+                    android:textSize="90sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bbottom1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55sp"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="bottom"
+                    android:text="1"
+                    android:textSize="90sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bdou"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/btop2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="1"
+                    android:textSize="90sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bbottom2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55sp"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="bottom"
+                    android:text="1"
+                    android:textSize="90sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btri"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/btop3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="1"
+                    android:textSize="90sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bbottom3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55sp"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="bottom"
+                    android:text="1"
+                    android:textSize="90sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/battery_percent_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="%" />
+        </LinearLayout>
+
+</LinearLayout>

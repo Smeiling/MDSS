@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="testcase_name">
+        <item>Bluetooth Test</item>
+        <item>Wifi Test</item>
+        <item>Battery Test</item>
+        <item>ECompass Test</item>
+        <item>GSensor Test</item>
+        <item>Keypad Test</item>
+        <item>Touch Test</item>
+        <item>MultiTouch Test</item>
+        <item>Vibrator Test</item>
+        <item>Receiver Test</item>
+        <item>Speaker Test</item>
+        <item>BroadMic Test</item>
+        <item>Main Camera Capture Test</item>
+        <item>Front Camera Capture Test</item>
+        <item>CameraFlash Test</item>
+        <item>Display Test</item>
+        <item>Headset Test</item>
+        <item>Headset Mic Test</item>
+        <item>Headset Key Test</item>
+        <item>SDcard Test</item>
+        <item>SIMcard Test</item>
+    </string-array>
+    <string-array name="testcase_icons">
+        <item>@drawable/asus_diagnostic_ic_bt_test</item>
+        <item>@drawable/asus_diagnostic_ic_wifibus_test</item>
+        <item>@drawable/asus_diagnostic_ic_battery_test</item>
+        <item>@drawable/asus_diagnostic_ic_ecompass_test</item>
+        <item>@drawable/asus_diagnostic_ic_gsensor_test</item>
+        <item>@drawable/asus_diagnostic_ic_keypad_test</item>
+        <item>@drawable/asus_diagnostic_ic_touch_test</item>
+        <item>@drawable/asus_diagnostic_ic_multitouch_test</item>
+        <item>@drawable/asus_diagnostic_ic_vibrator_test</item>
+        <item>@drawable/asus_diagnostic_ic_receiver_test</item>
+        <item>@drawable/asus_diagnostic_ic_speaker_test</item>
+        <item>@drawable/asus_diagnostic_ic_boardmic_test</item>
+        <item>@drawable/asus_diagnostic_ic_maincamcapture_test</item>
+        <item>@drawable/asus_diagnostic_ic_vgacamcapture_test</item>
+        <item>@drawable/asus_diagnostic_ic_cameraflash_test</item>
+        <item>@drawable/asus_diagnostic_ic_display_test</item>
+        <item>@drawable/asus_diagnostic_ic_headset_test</item>
+        <item>@drawable/asus_diagnostic_ic_headsetmic_test</item>
+        <item>@drawable/asus_diagnostic_ic_headsetkey_test</item>
+        <item>@drawable/asus_diagnostic_ic_sdcard_test</item>
+        <item>@drawable/asus_diagnostic_ic_simcard_test</item>
+    </string-array>
+    <string-array name="menu_name">
+        <item>Test All</item>
+        <item>Single Test</item>
+        <item>Settings</item>
+        <item>Test Result</item>
+    </string-array>
+    <string-array name="menu_icons">
+        <item>@drawable/asus_diagnostic_ic_test_all_n</item>
+        <item>@drawable/asus_diagnostic_ic_single_test_n</item>
+        <item>@drawable/asus_diagnostic_ic_repair_n</item>
+        <item>@drawable/result_ic</item>
+    </string-array>
+
+</resources>
